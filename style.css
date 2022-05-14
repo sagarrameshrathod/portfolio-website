@@ -305,6 +305,18 @@ textarea{
   padding: 50px;
 }
 
+.footer111{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-footer111{
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+  margin-right: 10px;
+}
+
 .copy{
   text-align: center;
   padding-bottom: 20px;
@@ -312,4 +324,42 @@ textarea{
 
 .link_link{
   color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:376px){
+  .header, .about1, .project1, .footer1{
+    flex-direction: column;
+  }
+
+  .header{
+    padding: 10px 0;
+  }
+
+  .content-b{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .content-b-link{
+    padding: 10px;
+  }
+
+  .home, .about, .project, .contact{
+    padding: 150px 10px;
+  }
+
+  .para-home, .head-home, .para-about, .para-project, .para-contact{
+    padding: 0;
+    text-align: center;
+  }
+
+  .my-project{
+    margin: 5px 50px;
+  }
+
+  .form-contact{
+    padding: 20px 0px;
+    margin: 0 20px; 
+  }
 }
